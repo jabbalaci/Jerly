@@ -1,0 +1,9 @@
+S->AB
+A->CN
+A->j
+C->l
+N->f
+B->VA
+B->DV
+V->f
+D->l

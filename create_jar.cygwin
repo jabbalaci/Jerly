@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+
+# jar cmf mainClass.mf bin/jerly.jar jerly/ && echo $0: JAR file is written to ./bin
+(/usr/bin/find.exe jerly/ -name "*.class" | xargs jar cmf mainClass.mf bin/jerly-bin.jar) \
+   && echo $0: binary JAR file was written to ./bin/jerly-bin.jar
+(/usr/bin/find.exe jerly/ -name "*.java"  | xargs jar cf  src/jerly-src.jar) \
+   && echo $0: source JAR file was written to ./src/jerly-src.jar

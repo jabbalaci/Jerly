@@ -1,0 +1,38 @@
+The directory and file structure of the project is the following:
+
+bin/
+   contains the binary JAR file
+   jerly-bin.jar can be used alone
+
+doc/
+   javadoc documentation
+
+jerly/
+   source code and compiled .class files together
+
+src/
+   contains the source JAR file
+
+input/
+   tests
+
+output/
+   the program will generate a nice HTML output in this directory
+
+
+AUTHOR               - author information (name, contact)
+CHANGES              - changelog
+LICENSE              - license information
+DATE                 - last modification
+FAQ                  - frequently asked questions
+README               - start here
+FILES                - overview of the structure of the package (this file)
+VERSION              - version information
+
+.classpath           \ needed for the Eclipse IDE
+.project             / see eclipse.org (but you can edit/run/use the program without Eclipse too of course)
+compile              - script for manual compilation
+start                - starter script
+mainClass.mf         - needed for the creation of the JAR file (specifies the main class)
+create_jar           - script for creating the bin and src JAR files (written in bash)
+create_jar.cygwin    - script for creating the bin and src JAR files (written in bash, Cygwin for Win32)

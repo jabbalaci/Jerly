@@ -1,0 +1,19 @@
+Symbols:
+(+) Added feature
+(-) Bug fixed
+(*) Improved/changed feature
+( ) Non-code change or note
+
+
+Version 0.1 (2005, May 2)
+( ) At last I decided to put it on HotScripts.com.
+
+
+Version 0.0.2 (2004, November 20)
+( ) Project is imported to Eclipse.
+
+
+Version 0.0.1 (2004, November 16)
+(+) First version. I implemented the Earley
+    algorithm described in the book of Revesz.
+    See the FAQ for more info.

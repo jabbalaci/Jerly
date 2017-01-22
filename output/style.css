@@ -1,0 +1,27 @@
+.rule {
+   font-family: "Courier New", Courier, mono;
+   font-weight: bold;
+}
+.header {
+   background-color: #33CCFF;
+}
+.empty {
+   background-color: #CCCCCC;
+}
+.index {
+   font-family: "Courier New", Courier, mono;
+   color: #33CC33;
+}
+.section {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: x-large;
+   //font-weight: bold;
+}
+.positiv {
+   background-color: #66CC33;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.negativ {
+   background-color: #FF99CC;
+   font-family: Arial, Helvetica, sans-serif;
+}

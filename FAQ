@@ -1,0 +1,31 @@
+FAQ:
+====
+
+>>> send your questions to szathmar@loria.fr
+
+1) What is Earley? What is it good for?
+=======================================
+For a detailed description about the Earley algorithm
+read the following article:
+
+Revesz, Gyorgy E.: Introduction to Formal Languages
+McGraw-Hill, 1983. pp. 143--150.
+
+To put it in a nutshell: with this algorithm you can find out
+if a word can be generated with a grammar. Example:
+
+grammar:
+========
+S->S+A
+S->A
+A->AxB
+A->B
+B->(s)
+B->a
+
+question:
+=========
+axa+a
+
+The program will give the answer "YES", because the word (question)
+can be generated using the rules of the grammar.
