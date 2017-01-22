@@ -49,7 +49,7 @@ How to try it right away
     HTML output was successfully written to dir. 'output'.
 
 The software also creates an HTML output with a nice table.
-It can be found in the `output` folder ([example](output/result.html)).
+It can be found in the `output` folder (see [screenshot](output/screenshot.jpg)).
 
 Author
 ------
